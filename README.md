@@ -12,5 +12,12 @@ composer require php-slugify
 Para usar é muito simples:
 
 ```php
-$result = Slugify::convert($seuTexto, $separador)
+$seuTexto = 'Texto para gerar Slug';
+$separador = '-';
+$result = \PhpSlugify\Slugify::convert($seuTexto, $separador);
+```
+
+O resultado será:
+```
+texto-para-gerar-slug
 ```
