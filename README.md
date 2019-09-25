@@ -5,7 +5,7 @@ Simples pacote para converter uma string qualquer em Slug
 Obtero pacote pelo composer:
 
 ```shell
-composer require danielfreitas1/session-handler
+composer require php-slugify
 ```
 
 ## Uso
