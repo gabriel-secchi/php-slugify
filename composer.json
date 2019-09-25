@@ -1,0 +1,26 @@
+{
+    "name": "gabriel-secchi/php-slugify",
+    "description": "Simples pacote para converter uma string qualquer em Slug.",
+    "keywords": [
+        "php",
+        "slug",
+        "string"
+    ],
+    "homepage": "https://github.com/gabriel-secchi/php-slugify",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Gabriel Secchi",
+            "email": "gabrielsecchi@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpSlugify\\": "src/"
+        }
+    }
+}
