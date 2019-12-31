@@ -2,10 +2,10 @@
 Simples pacote para converter uma string qualquer em Slug
 
 ## instalação
-Obtero pacote pelo composer:
+Obter o pacote pelo composer:
 
 ```shell
-composer require php-slugify
+composer require gabriel-secchi/php-slugify
 ```
 
 ## Uso
@@ -23,7 +23,7 @@ $separador = '-';
 $result = slug($seuTexto, $separador);
 ```
 
-O resultado será:
+Em ambos os casos o resultado será:
 ```
 texto-para-gerar-slug
 ```
