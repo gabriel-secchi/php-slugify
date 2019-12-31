@@ -9,12 +9,18 @@ composer require php-slugify
 ```
 
 ## Uso
-Para usar é muito simples:
-
 ```php
 $seuTexto = 'Texto para gerar Slug';
 $separador = '-';
 $result = \PhpSlugify\Slugify::convert($seuTexto, $separador);
+```
+
+Ou apenas
+
+```php
+$seuTexto = 'Texto para gerar Slug';
+$separador = '-';
+$result = slug($seuTexto, $separador);
 ```
 
 O resultado será:
