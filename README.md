@@ -2,22 +2,28 @@
 Simples pacote para converter uma string qualquer em Slug
 
 ## instalação
-Obtero pacote pelo composer:
+Obter o pacote pelo composer:
 
 ```shell
-composer require php-slugify
+composer require gabriel-secchi/php-slugify
 ```
 
 ## Uso
-Para usar é muito simples:
-
 ```php
 $seuTexto = 'Texto para gerar Slug';
 $separador = '-';
 $result = \PhpSlugify\Slugify::convert($seuTexto, $separador);
 ```
 
-O resultado será:
+Ou apenas
+
+```php
+$seuTexto = 'Texto para gerar Slug';
+$separador = '-';
+$result = slug($seuTexto, $separador);
+```
+
+Em ambos os casos o resultado será:
 ```
 texto-para-gerar-slug
 ```

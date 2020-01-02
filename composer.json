@@ -21,6 +21,9 @@
     "autoload": {
         "psr-4": {
             "PhpSlugify\\": "src/"
-        }
+        },
+        "files": [
+            "src/Helpers/slugify.php"
+        ]
     }
 }
